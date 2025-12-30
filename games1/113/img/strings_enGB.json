@@ -1,0 +1,16 @@
+{
+  "tap_to_start_text": "Tap to start",
+  "no_moves_ask": "No moves.\nEnd game?",
+  "win_label": "You win",
+  "lose_label": "You lose",
+  "score_label": "Score:",
+  "moves_label": "Moves:",
+  "time_label": "Time:",
+  "stat_title": "Statistics",
+  "stat_num_wins": "Wins",
+  "stat_num_gameplays": "Gameplays",
+  "stat_num_best_score": "Best score",
+  "stat_num_min_moves": "Min. moves",
+  "stat_num_best_time": "Best time",
+  "stat_num_total_time": "Total time"
+}
