@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>FreeCell Solitaire Unblocked </title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="chrome=1, IE=edge">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="description" content="FreeCell is a solitaire card game played using the standard 52-card deck. It is fundamentally different from most solitaire games in that very few deals are unsolvable, and all cards are dealt face-up from the very beginning of the game."/>
+	<meta name="keywords" content="freecell, solitaire, online solitaire"/>
+	<link rel="icon" href="icons/120/FreeCellTeaser.png">
+	<meta property="og:image" content="freecell-solitaire.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="icons/32/FreeCellTeaser.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="icons/64/FreeCellTeaser.png">
+	<link rel="icon" type="image/png" sizes="120x120" href="icons/120/FreeCellTeaser.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="icons/192/FreeCellTeaser.png">
+
+	<style>
+		html,body { margin: 0; padding: 0; height: 100%; overflow: hidden; color: #ffffff;}
+		#openfl-content { background: #000000; width: 100%; height: 100%; }
+
+		@font-face {
+			font-family: 'Calibri-Regular';
+			src: url('fonts/PTSans-Narrow-Web-Regular.woff') format('woff'),
+			url('fonts/PTSans-Narrow-Web-Regular.ttf') format('truetype');
+			font-weight: normal;
+			font-style: normal;
+		}
+	</style>
+
+	<script>
+	    // Package-ID
+	    window.famobi_gameID = "freecell-solitaire-classic";
+	    window.famobi_gameJS = ['js/all.js',
+	    	function(){
+	    		window.famobi_primaryTouch = null;
+	    		window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, false);
+	        	lime.embed ("openfl-content", 0, 0, "000000");
+	    	}
+	    ];
+
+	    (function (document, url, fgJS, firstJS) {
+	            fgJS = document.createElement('script');
+	            firstJS = document.getElementsByTagName('script')[0];
+	            fgJS.src = url + encodeURIComponent(document.location.href);
+	            firstJS.parentNode.insertBefore(fgJS, firstJS);
+	    })(document, 'js/start.js?e=');
+	</script>
+</head>
+<body>
+	<div id="openfl-content" style="z-index: 1;"></div>
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"5c8adb3476774536859fc56135d4501a","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>

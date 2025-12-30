@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+
+	<title>biker-street Unblocked Famobi</title>
+
+	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+
+	<link rel="shortcut icon" type="image/png" href="./favicon.png">
+
+	<style>
+		html,body { margin: 0; padding: 0; height: 100%; overflow: hidden; }
+		#openfl-content { background: #000000; width: 100%; height: 100%; }
+
+		@font-face {
+			font-family: 'Carton Six';
+			src: url('fonts/Carton_Six.woff2') format('woff2'),
+				url('fonts/Carton_Six.woff') format('woff'),
+				url('fonts/Carton_Six.ttf') format('truetype');
+			font-weight: normal;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: 'Tahoma';
+			src: url('fonts/tahoma.woff2') format('woff2'),
+				url('fonts/tahoma.woff') format('woff'),
+				url('fonts/tahoma.ttf') format('truetype');
+			font-weight: normal;
+			font-style: normal;
+		}
+	</style>
+
+	<!-- FAMOBI API BEGIN -->
+	<script>
+	// ---------------- API Snippet ----------------
+	window.famobi_gameID = "biker-street";
+	window.famobi_gameJS = ['js/all.js',
+		// "./fg_api_local/famobi_analytics_v1.js",
+		function(){
+			// start the game
+			//console.log('start the game');
+			window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, false);
+			lime.embed ("biker-street", "openfl-content", 0, 0, { parameters: {} });
+		}
+	];
+
+	(function (document, url, fgJS, firstJS) {
+		fgJS = document.createElement('script');
+		firstJS = document.getElementsByTagName('script')[0];
+		fgJS.src = url + encodeURIComponent(document.location.href);
+		firstJS.parentNode.insertBefore(fgJS, firstJS);
+	})(document, 'v1.js?e='); //html5games/gameapi/v1.js?e= fg_api_local/initapi.js?e= http:'v1.js?e='
+	</script>
+	<!-- FAMOBI API END -->
+</head>
+<body>
+	<noscript>This webpage makes extensive use of JavaScript. Please enable JavaScript in your web browser to view this page.</noscript>
+	<div id="openfl-content"></div>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"5c8adb3476774536859fc56135d4501a","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
