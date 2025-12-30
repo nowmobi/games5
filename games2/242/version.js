@@ -1,2 +1,0 @@
-version="5";
-libs=["npm/@azerion/phaser-cachebuster@2.0/build/phaser-cachebuster.min.js","npm/@azerion/phaser-spine@3.0/build/phaser-spine.min.js","npm/@azerion/phaser-super-storage@1.0/build/phaser-super-storage.min.js"];
