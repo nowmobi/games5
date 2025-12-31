@@ -199,33 +199,7 @@
         "downloads": "12.0K",
         "category": "action"
     },
-    {
-        "id": 73,
-        "name": "Fish Eat Fish",
-        "image": "./icons/73.jpg",
-        "description": "Survive and grow by eating smaller fish in this competitive underwater game.",
-        "rating": 5.0,
-        "downloads": "1.3K",
-        "category": "adventure"
-    },
-    {
-        "id": 74,
-        "name": "Five Nights At Freddy's 2",
-        "image": "./icons/74.jpg",
-        "description": "Survive the night in a haunted pizzeria filled with animatronic threats.",
-        "rating": 4.3,
-        "downloads": "14.1K",
-        "category": "adventure"
-    },
-    {
-        "id": 75,
-        "name": "Five Nights At Freddy's 3",
-        "image": "./icons/75.jpg",
-        "description": "Face your fears in this horror game set in a spooky attraction.",
-        "rating": 4.1,
-        "downloads": "11.1K",
-        "category": "adventure"
-    },
+
     {
         "id": 76,
         "name": "Five Nights At Freddy's 4",
@@ -233,15 +207,6 @@
         "description": "Experience terrifying nightmares while trying to survive against creepy animatronics.",
         "rating": 4.8,
         "downloads": "9.4K",
-        "category": "adventure"
-    },
-    {
-        "id": 77,
-        "name": "Five Nights At Freddy's 5",
-        "image": "./icons/77.jpg",
-        "description": "Continue the horror saga in this chilling installment of the FNAF series.",
-        "rating": 4.8,
-        "downloads": "7.8K",
         "category": "adventure"
     },
     {
@@ -287,7 +252,7 @@
         "description": "Match colorful candies and complete sweet challenges in this fun, match-3 puzzle game.",
         "rating": 4.2,
         "downloads": "12.2K",
-        "category": "girls"
+        "category": "girl"
     },
     {
         "id": 120,
@@ -296,7 +261,7 @@
         "description": "Match colors and shapes in this addictive puzzle game.",
         "rating": 4.0,
         "downloads": "11.4K",
-        "category": "girls"
+        "category": "girl"
     },
     {
         "id": 124,
@@ -305,7 +270,7 @@
         "description": "Sort colored balls into tubes in this relaxing and satisfying puzzle game.",
         "rating": 4.2,
         "downloads": "13.3K",
-        "category": "girls"
+        "category": "girl"
     },
     {
         "id": 127,
@@ -314,7 +279,7 @@
         "description": "Match fruits to crush them in this colorful and fun puzzle game.",
         "rating": 4.5,
         "downloads": "9.7K",
-        "category": "girls"
+        "category": "girl"
     },
     {
         "id": 264,
@@ -323,7 +288,7 @@
         "description": "Press piano keys to play music. Use the in - game piano keys to create beautiful tunes.",
         "rating": 4.1,
         "downloads": "9.3K",
-        "category": "girls"
+        "category": "girl"
     },
     {
         "id": 274,
@@ -332,7 +297,7 @@
         "description": "In this paradise - themed onet game, match pairs of tiles to clear the board. Enjoy beautiful visuals and relaxing gameplay as you work through levels.",
         "rating": 4.3,
         "downloads": "9.1K",
-        "category": "girls"
+        "category": "girl"
     },
     {
         "id": 2,
