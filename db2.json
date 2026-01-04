@@ -56,15 +56,6 @@
         "category": "action"
     },
     {
-        "id": 36,
-        "name": "Roper",
-        "image": "./icons/36.jpg",
-        "description": "Use your grappling hook to swing through levels, avoiding obstacles and reaching the goal in this platformer.",
-        "rating": 4.9,
-        "downloads": "4.8K",
-        "category": "action"
-    },
-    {
         "id": 38,
         "name": "Biker Street",
         "image": "./icons/38.jpg",
