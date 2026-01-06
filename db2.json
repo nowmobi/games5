@@ -533,15 +533,6 @@
         "category": "racing"
     },
     {
-        "id": 155,
-        "name": "Turn Turn",
-        "image": "./icons/155.jpg",
-        "description": "Rotate pieces to match colors and complete puzzles in this engaging game.",
-        "rating": 4.5,
-        "downloads": "9.5K",
-        "category": "racing"
-    },
-    {
         "id": 118,
         "name": "Adventure Drivers",
         "image": "./icons/118.jpg",

@@ -578,15 +578,6 @@
         "category": "racing"
     },
     {
-        "id": 48,
-        "name": "Traffic Tom",
-        "image": "./icons/48.jpg",
-        "description": "Ride your bike through busy traffic, completing missions and dodging cars in this thrilling driving game.",
-        "rating": 4.8,
-        "downloads": "10.1K",
-        "category": "racing"
-    },
-    {
         "id": 49,
         "name": "Wheelie Bike",
         "image": "./icons/49.jpg",
@@ -674,15 +665,6 @@
         "description": "Manage traffic flow and prevent accidents at busy intersections in this strategy game.",
         "rating": 4.1,
         "downloads": "3.1K",
-        "category": "racing"
-    },
-    {
-        "id": 155,
-        "name": "Turn Turn",
-        "image": "./icons/155.jpg",
-        "description": "Rotate pieces to match colors and complete puzzles in this engaging game.",
-        "rating": 4.5,
-        "downloads": "9.5K",
         "category": "racing"
     },
     {

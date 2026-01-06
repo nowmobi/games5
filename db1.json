@@ -669,15 +669,6 @@
         "category": "racing"
     },
     {
-        "id": 48,
-        "name": "Traffic Tom",
-        "image": "./icons/48.jpg",
-        "description": "Ride your bike through busy traffic, completing missions and dodging cars in this thrilling driving game.",
-        "rating": 4.8,
-        "downloads": "10.1K",
-        "category": "racing"
-    },
-    {
         "id": 49,
         "name": "Wheelie Bike",
         "image": "./icons/49.jpg",
