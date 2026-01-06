@@ -56,15 +56,6 @@
         "category": "action"
     },
     {
-        "id": 2,
-        "name": "3 Pandas In Japan",
-        "image": "./icons/2.jpg",
-        "description": "Help three pandas escape by solving puzzles in Japan's beautiful landscapes. A fun and tricky adventure!",
-        "rating": 4.9,
-        "downloads": "5.3K",
-        "category": "kids"
-    },
-    {
         "id": 3,
         "name": "Adam And Eve 7",
         "image": "./icons/3.jpg",
@@ -89,15 +80,6 @@
         "description": "Click to bake cookies endlessly, upgrade buildings, and unlock achievements in this addictive idle game.",
         "rating": 4.0,
         "downloads": "7.3K",
-        "category": "action"
-    },
-    {
-        "id": 6,
-        "name": "Drive Mad",
-        "image": "./icons/6.jpg",
-        "description": "Race through obstacle-filled tracks with wild stunts and crashes in this exciting driving challenge.",
-        "rating": 4.4,
-        "downloads": "4.6K",
         "category": "action"
     },
     {
@@ -272,30 +254,12 @@
         "category": "puzzle"
     },
     {
-        "id": 27,
-        "name": "Crazy Cars",
-        "image": "./icons/27.jpg",
-        "description": "Race through traffic, perform stunts, and avoid obstacles in this action-packed car game.",
-        "rating": 4.9,
-        "downloads": "13.0K",
-        "category": "action"
-    },
-    {
         "id": 28,
         "name": "Dead Again",
         "image": "./icons/28.jpg",
         "description": "Fight against hordes of zombies and survive as long as you can in this post-apocalyptic action game.",
         "rating": 4.9,
         "downloads": "15.4K",
-        "category": "action"
-    },
-    {
-        "id": 29,
-        "name": "Fruit Ninja",
-        "image": "./icons/29.jpg",
-        "description": "Slice flying fruit with precision in this fast-paced action game. Become a master ninja!",
-        "rating": 4.5,
-        "downloads": "9.7K",
         "category": "action"
     },
     {
@@ -351,15 +315,6 @@
         "rating": 4.1,
         "downloads": "12.7K",
         "category": "puzzle"
-    },
-    {
-        "id": 36,
-        "name": "Roper",
-        "image": "./icons/36.jpg",
-        "description": "Use your grappling hook to swing through levels, avoiding obstacles and reaching the goal in this platformer.",
-        "rating": 4.9,
-        "downloads": "4.8K",
-        "category": "action"
     },
     {
         "id": 37,
@@ -461,15 +416,6 @@
         "category": "action"
     },
     {
-        "id": 48,
-        "name": "Traffic Tom",
-        "image": "./icons/48.jpg",
-        "description": "Ride your bike through busy traffic, completing missions and dodging cars in this thrilling driving game.",
-        "rating": 4.8,
-        "downloads": "10.1K",
-        "category": "racing"
-    },
-    {
         "id": 49,
         "name": "Wheelie Bike",
         "image": "./icons/49.jpg",
@@ -477,15 +423,6 @@
         "rating": 4.2,
         "downloads": "15.0K",
         "category": "racing"
-    },
-    {
-        "id": 50,
-        "name": "Friday Night Funkin'",
-        "image": "./icons/50.jpg",
-        "description": "Dance to the beat and hit the right notes to win rap battles in this rhythm-based game.",
-        "rating": 4.5,
-        "downloads": "7.6K",
-        "category": "action"
     },
     {
         "id": 51,
@@ -503,24 +440,6 @@
         "description": "Manage your mining empire, upgrade workers and equipment, and dig for valuable resources.",
         "rating": 4.6,
         "downloads": "15.8K",
-        "category": "puzzle"
-    },
-    {
-        "id": 53,
-        "name": "Idle Restaurants",
-        "image": "./icons/53.jpg",
-        "description": "Build and manage your restaurant empire, cooking dishes and serving customers in this idle management game.",
-        "rating": 4.8,
-        "downloads": "6.2K",
-        "category": "puzzle"
-    },
-    {
-        "id": 54,
-        "name": "Stick Merge",
-        "image": "./icons/54.jpg",
-        "description": "Merge stick figures to create powerful combinations in this fun puzzle game.",
-        "rating": 4.6,
-        "downloads": "8.4K",
         "category": "puzzle"
     },
     {
@@ -614,15 +533,6 @@
         "category": "action"
     },
     {
-        "id": 65,
-        "name": "Football Brawl",
-        "image": "./icons/65.jpg",
-        "description": "Play chaotic football matches with brawls and power-ups in this arcade-style game.",
-        "rating": 4.4,
-        "downloads": "1.3K",
-        "category": "sports"
-    },
-    {
         "id": 66,
         "name": "Football Legends",
         "image": "./icons/66.jpg",
@@ -638,15 +548,6 @@
         "description": "Play football as top players, score goals, and use power-ups to win matches.",
         "rating": 4.3,
         "downloads": "9.5K",
-        "category": "sports"
-    },
-    {
-        "id": 68,
-        "name": "Football Strike",
-        "image": "./icons/68.jpg",
-        "description": "Score goals in this free-kick football game, aiming for the perfect shot to beat the goalkeeper.",
-        "rating": 4.7,
-        "downloads": "12.0K",
         "category": "sports"
     },
     {
@@ -702,15 +603,6 @@
         "description": "Monitor cameras and survive against haunted animatronics in this iconic horror game.",
         "rating": 4.3,
         "downloads": "11.3K",
-        "category": "adventure"
-    },
-    {
-        "id": 79,
-        "name": "Gobdun",
-        "image": "./icons/79.jpg",
-        "description": "Guide Gobdun through challenging levels filled with traps and puzzles.",
-        "rating": 4.1,
-        "downloads": "15.4K",
         "category": "adventure"
     },
     {
@@ -786,15 +678,6 @@
         "category": "action"
     },
     {
-        "id": 88,
-        "name": "Tower Crash 3D",
-        "image": "./icons/88.jpg",
-        "description": "Destroy towers using physics-based projectiles in this addictive arcade game.",
-        "rating": 4.4,
-        "downloads": "11.5K",
-        "category": "action"
-    },
-    {
         "id": 89,
         "name": "Age Of War",
         "image": "./icons/89.jpg",
@@ -837,15 +720,6 @@
         "description": "Master drifting skills while navigating through challenging tracks in this driving game.",
         "rating": 4.1,
         "downloads": "13.9K",
-        "category": "racing"
-    },
-    {
-        "id": 94,
-        "name": "Park Out",
-        "image": "./icons/94.jpg",
-        "description": "Solve parking puzzles to get your car out of tricky situations.",
-        "rating": 4.6,
-        "downloads": "13.7K",
         "category": "racing"
     },
     {
@@ -930,30 +804,12 @@
         "category": "puzzle"
     },
     {
-        "id": 117,
-        "name": "Stickman Fighter Epic Battles",
-        "image": "./icons/117.jpg",
-        "description": "Engage in epic stickman battles with various weapons and skills.",
-        "rating": 4.2,
-        "downloads": "8.9K",
-        "category": "action"
-    },
-    {
         "id": 118,
         "name": "Adventure Drivers",
         "image": "./icons/118.jpg",
         "description": "Drive through exciting levels and complete challenges in this fun racing game.",
         "rating": 4.2,
         "downloads": "11.0K",
-        "category": "racing"
-    },
-    {
-        "id": 119,
-        "name": "Bus Parking 3D",
-        "image": "./icons/119.jpg",
-        "description": "Test your parking skills with realistic buses in challenging environments.",
-        "rating": 4.1,
-        "downloads": "14.2K",
         "category": "racing"
     },
     {
@@ -1065,24 +921,6 @@
         "category": "puzzle"
     },
     {
-        "id": 138,
-        "name": "Snail Bob 7",
-        "image": "./icons/138.jpg",
-        "description": "Assist Snail Bob in overcoming obstacles and solving puzzles in this delightful game.",
-        "rating": 4.7,
-        "downloads": "11.8K",
-        "category": "kids"
-    },
-    {
-        "id": 139,
-        "name": "Snail Bob 8",
-        "image": "./icons/139.jpg",
-        "description": "Embark on a new adventure with Snail Bob, filled with fun and challenges.",
-        "rating": 4.9,
-        "downloads": "8.5K",
-        "category": "kids"
-    },
-    {
         "id": 140,
         "name": "Snail Bob",
         "image": "./icons/140.jpg",
@@ -1090,15 +928,6 @@
         "rating": 4.8,
         "downloads": "10.4K",
         "category": "kids"
-    },
-    {
-        "id": 141,
-        "name": "Wood Block Puzzle",
-        "image": "./icons/141.jpg",
-        "description": "Fit wooden blocks together to clear rows and score points in this relaxing game.",
-        "rating": 4.7,
-        "downloads": "14.8K",
-        "category": "puzzle"
     },
     {
         "id": 142,
@@ -1128,15 +957,6 @@
         "category": "puzzle"
     },
     {
-        "id": 145,
-        "name": "Hop Pop It",
-        "image": "./icons/145.jpg",
-        "description": "Pop bubbles and complete challenges in this colorful and fun bubble shooter.",
-        "rating": 4.1,
-        "downloads": "4.6K",
-        "category": "puzzle"
-    },
-    {
         "id": 146,
         "name": "Minecraft Case Simulator",
         "image": "./icons/146.jpg",
@@ -1144,33 +964,6 @@
         "rating": 5.0,
         "downloads": "13.8K",
         "category": "puzzle"
-    },
-    {
-        "id": 147,
-        "name": "Dinosaurs Merge Master",
-        "image": "./icons/147.jpg",
-        "description": "Merge dinosaurs to create new species and complete challenges in this fun game.",
-        "rating": 4.6,
-        "downloads": "14.9K",
-        "category": "puzzle"
-    },
-    {
-        "id": 148,
-        "name": "Blumgi Rocket",
-        "image": "./icons/148.jpg",
-        "description": "Launch your rocket and navigate through levels filled with obstacles in this adventure.",
-        "rating": 4.3,
-        "downloads": "9.8K",
-        "category": "racing"
-    },
-    {
-        "id": 149,
-        "name": "Car Rush",
-        "image": "./icons/149.jpg",
-        "description": "Drive through traffic and avoid obstacles in this fast-paced racing game.",
-        "rating": 4.0,
-        "downloads": "5.0K",
-        "category": "racing"
     },
     {
         "id": 150,
@@ -1215,15 +1008,6 @@
         "description": "Manage traffic flow and prevent accidents at busy intersections in this strategy game.",
         "rating": 4.1,
         "downloads": "3.1K",
-        "category": "racing"
-    },
-    {
-        "id": 155,
-        "name": "Turn Turn",
-        "image": "./icons/155.jpg",
-        "description": "Rotate pieces to match colors and complete puzzles in this engaging game.",
-        "rating": 4.5,
-        "downloads": "9.5K",
         "category": "racing"
     },
     {
@@ -1386,15 +1170,6 @@
         "description": "Control a ball rolling down a slope while avoiding obstacles in this fast-paced game.",
         "rating": 4.6,
         "downloads": "2.0K",
-        "category": "action"
-    },
-    {
-        "id": 174,
-        "name": "Swingo",
-        "image": "./icons/174.jpg",
-        "description": "Swing through levels using ropes and avoid obstacles in this fun arcade game.",
-        "rating": 4.1,
-        "downloads": "7.5K",
         "category": "action"
     },
     {
