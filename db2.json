@@ -587,15 +587,6 @@
         "category": "racing"
     },
     {
-        "id": 2,
-        "name": "3 Pandas In Japan",
-        "image": "./icons/2.jpg",
-        "description": "Help three pandas escape by solving puzzles in Japan's beautiful landscapes. A fun and tricky adventure!",
-        "rating": 4.9,
-        "downloads": "5.3K",
-        "category": "kids"
-    },
-    {
         "id": 16,
         "name": "Space Bar Clicker",
         "image": "./icons/16.jpg",

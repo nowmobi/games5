@@ -83,15 +83,6 @@
         "category": "action"
     },
     {
-        "id": 6,
-        "name": "Drive Mad",
-        "image": "./icons/6.jpg",
-        "description": "Race through obstacle-filled tracks with wild stunts and crashes in this exciting driving challenge.",
-        "rating": 4.4,
-        "downloads": "4.6K",
-        "category": "action"
-    },
-    {
         "id": 7,
         "name": "G Switch 4",
         "image": "./icons/7.jpg",
@@ -289,15 +280,6 @@
         "rating": 4.3,
         "downloads": "9.1K",
         "category": "girl"
-    },
-    {
-        "id": 2,
-        "name": "3 Pandas In Japan",
-        "image": "./icons/2.jpg",
-        "description": "Help three pandas escape by solving puzzles in Japan's beautiful landscapes. A fun and tricky adventure!",
-        "rating": 4.9,
-        "downloads": "5.3K",
-        "category": "kids"
     },
     {
         "id": 16,
