@@ -119,15 +119,6 @@
         "category": "action"
     },
     {
-        "id": 50,
-        "name": "Friday Night Funkin'",
-        "image": "./icons/50.jpg",
-        "description": "Dance to the beat and hit the right notes to win rap battles in this rhythm-based game.",
-        "rating": 4.5,
-        "downloads": "7.6K",
-        "category": "action"
-    },
-    {
         "id": 56,
         "name": "8 Ball Pool",
         "image": "./icons/56.jpg",
@@ -218,15 +209,6 @@
         "category": "action"
     },
     {
-        "id": 88,
-        "name": "Tower Crash 3D",
-        "image": "./icons/88.jpg",
-        "description": "Destroy towers using physics-based projectiles in this addictive arcade game.",
-        "rating": 4.4,
-        "downloads": "11.5K",
-        "category": "action"
-    },
-    {
         "id": 89,
         "name": "Age Of War",
         "image": "./icons/89.jpg",
@@ -251,15 +233,6 @@
         "description": "Help your character cross roads and rivers in this endless arcade hopper.",
         "rating": 5.0,
         "downloads": "6.4K",
-        "category": "action"
-    },
-    {
-        "id": 117,
-        "name": "Stickman Fighter Epic Battles",
-        "image": "./icons/117.jpg",
-        "description": "Engage in epic stickman battles with various weapons and skills.",
-        "rating": 4.2,
-        "downloads": "8.9K",
         "category": "action"
     },
     {
@@ -359,15 +332,6 @@
         "description": "Control a ball rolling down a slope while avoiding obstacles in this fast-paced game.",
         "rating": 4.6,
         "downloads": "2.0K",
-        "category": "action"
-    },
-    {
-        "id": 174,
-        "name": "Swingo",
-        "image": "./icons/174.jpg",
-        "description": "Swing through levels using ropes and avoid obstacles in this fun arcade game.",
-        "rating": 4.1,
-        "downloads": "7.5K",
         "category": "action"
     },
     {
@@ -479,15 +443,6 @@
         "category": "adventure"
     },
     {
-        "id": 149,
-        "name": "Car Rush",
-        "image": "./icons/149.jpg",
-        "description": "Drive through traffic and avoid obstacles in this fast-paced racing game.",
-        "rating": 4.0,
-        "downloads": "5.0K",
-        "category": "racing"
-    },
-    {
         "id": 150,
         "name": "Eggy Car",
         "image": "./icons/150.jpg",
@@ -542,30 +497,12 @@
         "category": "racing"
     },
     {
-        "id": 119,
-        "name": "Bus Parking 3D",
-        "image": "./icons/119.jpg",
-        "description": "Test your parking skills with realistic buses in challenging environments.",
-        "rating": 4.1,
-        "downloads": "14.2K",
-        "category": "racing"
-    },
-    {
         "id": 93,
         "name": "Drift Boss",
         "image": "./icons/93.jpg",
         "description": "Master drifting skills while navigating through challenging tracks in this driving game.",
         "rating": 4.1,
         "downloads": "13.9K",
-        "category": "racing"
-    },
-    {
-        "id": 94,
-        "name": "Park Out",
-        "image": "./icons/94.jpg",
-        "description": "Solve parking puzzles to get your car out of tricky situations.",
-        "rating": 4.6,
-        "downloads": "13.7K",
         "category": "racing"
     },
     {
@@ -611,24 +548,6 @@
         "description": "Guess the cat breeds in this fun and educational game.",
         "rating": 4.6,
         "downloads": "14.7K",
-        "category": "kids"
-    },
-    {
-        "id": 138,
-        "name": "Snail Bob 7",
-        "image": "./icons/138.jpg",
-        "description": "Assist Snail Bob in overcoming obstacles and solving puzzles in this delightful game.",
-        "rating": 4.7,
-        "downloads": "11.8K",
-        "category": "kids"
-    },
-    {
-        "id": 139,
-        "name": "Snail Bob 8",
-        "image": "./icons/139.jpg",
-        "description": "Embark on a new adventure with Snail Bob, filled with fun and challenges.",
-        "rating": 4.9,
-        "downloads": "8.5K",
         "category": "kids"
     },
     {
@@ -683,24 +602,6 @@
         "description": "Manage your mining empire, upgrade workers and equipment, and dig for valuable resources.",
         "rating": 4.6,
         "downloads": "15.8K",
-        "category": "puzzle"
-    },
-    {
-        "id": 53,
-        "name": "Idle Restaurants",
-        "image": "./icons/53.jpg",
-        "description": "Build and manage your restaurant empire, cooking dishes and serving customers in this idle management game.",
-        "rating": 4.8,
-        "downloads": "6.2K",
-        "category": "puzzle"
-    },
-    {
-        "id": 54,
-        "name": "Stick Merge",
-        "image": "./icons/54.jpg",
-        "description": "Merge stick figures to create powerful combinations in this fun puzzle game.",
-        "rating": 4.6,
-        "downloads": "8.4K",
         "category": "puzzle"
     },
     {
@@ -830,15 +731,6 @@
         "category": "puzzle"
     },
     {
-        "id": 141,
-        "name": "Wood Block Puzzle",
-        "image": "./icons/141.jpg",
-        "description": "Fit wooden blocks together to clear rows and score points in this relaxing game.",
-        "rating": 4.7,
-        "downloads": "14.8K",
-        "category": "puzzle"
-    },
-    {
         "id": 142,
         "name": "Wordle Unlimited",
         "image": "./icons/142.jpg",
@@ -866,30 +758,12 @@
         "category": "puzzle"
     },
     {
-        "id": 145,
-        "name": "Hop Pop It",
-        "image": "./icons/145.jpg",
-        "description": "Pop bubbles and complete challenges in this colorful and fun bubble shooter.",
-        "rating": 4.1,
-        "downloads": "4.6K",
-        "category": "puzzle"
-    },
-    {
         "id": 146,
         "name": "Minecraft Case Simulator",
         "image": "./icons/146.jpg",
         "description": "Open cases and collect items in this fun Minecraft-themed simulator.",
         "rating": 5.0,
         "downloads": "13.8K",
-        "category": "puzzle"
-    },
-    {
-        "id": 147,
-        "name": "Dinosaurs Merge Master",
-        "image": "./icons/147.jpg",
-        "description": "Merge dinosaurs to create new species and complete challenges in this fun game.",
-        "rating": 4.6,
-        "downloads": "14.9K",
         "category": "puzzle"
     },
     {
