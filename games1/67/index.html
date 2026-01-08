@@ -13,7 +13,9 @@
 
 <body>
     <div id="content"></div>
-    <div id="orientation"></div>
+    <div id="orientation">
+        <div class="phone-icon"></div>
+    </div>
     <div id="loader">Loading ...</div>
     
     <script src="patch/js/poki-sdk.js"></script>    
@@ -35,6 +37,26 @@
 
 
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"5c8adb3476774536859fc56135d4501a","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+
+<script>
+    function checkOrientation() {
+        const orientationDiv = document.getElementById('orientation');
+        const isPortrait = window.innerHeight > window.innerWidth;
+        
+        if (isPortrait) {
+            orientationDiv.classList.add('orientation-landscape');
+            orientationDiv.style.display = 'block';
+        } else {
+            orientationDiv.classList.remove('orientation-landscape');
+            orientationDiv.style.display = 'none';
+        }
+    }
+    window.addEventListener('resize', checkOrientation);
+    window.addEventListener('orientationchange', checkOrientation);
+
+    window.addEventListener('load', checkOrientation);
+</script>
+
 </body>
 
 </html>

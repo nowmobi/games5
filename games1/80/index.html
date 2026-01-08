@@ -11,7 +11,9 @@
 <body style="overflow:hidden;">
 <div id="content"></div>
 <div id="loader">Loading...</div>
-<div id="orientation"></div>
+<div id="orientation">
+    <div id="orientation-icon" class="rotate-animation"></div>
+</div>
 <div id="dummy" style="position:fixed;right:0;bottom:0"></div>
 
 <script type="text/javascript">
@@ -27,6 +29,23 @@
         document.body.appendChild(s);
     }
 
+    // Check orientation and show orientation message if needed
+    function checkOrientation() {
+        var orientationDiv = document.getElementById('orientation');
+        var isPortrait = window.innerHeight > window.innerWidth;
+        if (isPortrait) {
+            orientationDiv.className = 'landscape';
+        } else {
+            orientationDiv.className = '';
+        }
+    }
+
+    // Initial check
+    checkOrientation();
+
+    // Add orientation change event listeners
+    window.addEventListener('resize', checkOrientation);
+    window.addEventListener('orientationchange', checkOrientation);
 
     addScript('version.js', Date.now(), function () {
         addScript(gameName, version, function () {

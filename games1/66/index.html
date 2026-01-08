@@ -82,6 +82,46 @@
 
 <script type="text/javascript" src="football_legends.min.js?d04257a4da6d1857f932"></script>
 
+<script type="text/javascript">
+    // Check if device orientation is supported
+    if (window.DeviceOrientationEvent && typeof DeviceOrientationEvent.requestPermission === 'function') {
+        // For iOS 13+ devices that require permission to access device orientation
+        DeviceOrientationEvent.requestPermission()
+            .then(function (permissionState) {
+                if (permissionState === 'granted') {
+                    window.addEventListener('deviceorientation', handleOrientation, false);
+                }
+            })
+            .catch(console.error);
+    } else {
+        // For other devices that support device orientation
+        window.addEventListener('deviceorientation', handleOrientation, false);
+    }
+
+    // Add event listener for resize to detect orientation change
+    window.addEventListener('resize', checkOrientation, false);
+    window.addEventListener('load', checkOrientation, false);
+
+    function checkOrientation() {
+        var orientationDiv = document.getElementById('orientation');
+        
+        // Check if the device is in portrait mode (window height is greater than width)
+        if (window.innerHeight > window.innerWidth) {
+            // Portrait mode detected, show orientation message and add rotate class
+            orientationDiv.style.display = 'flex';
+            orientationDiv.classList.add('rotate');
+        } else {
+            // Landscape mode, remove rotate class to stop animation but keep the phone icon in landscape position
+            orientationDiv.classList.remove('rotate');
+        }
+    }
+
+    function handleOrientation() {
+        // This function handles device orientation events
+        checkOrientation();
+    }
+</script>
+
 
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"5c8adb3476774536859fc56135d4501a","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
