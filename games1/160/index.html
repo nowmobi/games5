@@ -25,7 +25,10 @@
 <body style="overflow:hidden;">
     
     <div id="content"></div>
-    <div id="orientation"></div>
+    <div id="orientation">
+        <div class="message">Please rotate your device<br>to landscape mode</div>
+        <div class="phone-icon"></div>
+    </div>
     <div id="loader">Loading ...</div>
 
     <script type="text/javascript">
@@ -33,6 +36,31 @@
 		
 		var gameName = "wheely-6.min.js";
 		
+        // Function to check screen orientation
+        function checkOrientation() {
+            var orientation = window.innerWidth < window.innerHeight ? 'portrait' : 'landscape';
+            var orientationElement = document.getElementById('orientation');
+            
+            if (orientation === 'portrait') {
+                // Show orientation
+                orientationElement.style.display = 'flex';
+            } else {
+                // Hide orientation
+                orientationElement.style.display = 'none';
+            }
+        }
+        
+        // Check orientation on load
+        window.addEventListener('load', checkOrientation);
+        
+        // Check orientation on resize
+        window.addEventListener('resize', checkOrientation);
+        
+        // Check orientation on device orientation change (for mobile devices)
+        window.addEventListener('orientationchange', function() {
+            // Small delay to ensure the orientation change is complete
+            setTimeout(checkOrientation, 100);
+        });
 
         //This all here is for cache busting;
         function addScript(src, buster, callback) {

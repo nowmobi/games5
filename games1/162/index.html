@@ -24,10 +24,29 @@
     <script type="text/javascript">
         var gameName = "wheely-8.min.js";
 
+        // Check orientation and show rotation prompt if needed
+        function checkOrientation() {
+            var orientationDiv = document.getElementById('orientation');
+            
+            // Check if device is in portrait mode
+            if (window.innerHeight > window.innerWidth) {
+                // Show orientation prompt
+                orientationDiv.className = 'orientation-landscape';
+                orientationDiv.innerHTML = '<div class="phone-icon"></div>';
+            } else {
+                // Device is in landscape, hide prompt
+                orientationDiv.className = '';
+                orientationDiv.innerHTML = '';
+            }
+        }
 
-
-
-
+        // Check orientation on load and on resize
+        window.addEventListener('load', checkOrientation);
+        window.addEventListener('resize', checkOrientation);
+        window.addEventListener('orientationchange', function() {
+            // Delay the check to ensure the viewport has updated
+            setTimeout(checkOrientation, 100);
+        });
 
         //This all here is for cache busting;
         function addScript(src, buster, callback) {

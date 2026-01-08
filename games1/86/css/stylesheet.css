@@ -17,12 +17,61 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../assets/orientation.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
     background-color: rgb(0, 0, 0);
     z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#orientation.landscape {
     display: none;
+}
+
+#orientation.portrait {
+    display: flex;
+}
+
+.phone-icon {
+    width: 80px;
+    height: 160px;
+    position: relative;
+    background: #fff;
+    border-radius: 16px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+    animation: rotatePhone 1.5s infinite ease-in-out;
+    margin: 50% auto;
+}
+
+.phone-icon::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 8px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+@keyframes rotatePhone {
+    0% {
+        transform: rotate(0);
+    }
+    5% {
+        transform: rotate(10deg);
+    }
+    15% {
+        transform: rotate(70deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    30% {
+        transform: rotate(100deg);
+    }
 }
 
 #banner {

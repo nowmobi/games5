@@ -13,12 +13,37 @@
 </head>
 <body style="overflow:hidden;">
 <div id="content"></div>
-<div id="orientation"></div>
+<div id="orientation" style="display: none;">
+    <div id="orientation-content">
+        <div class="phone-icon landscape"></div>
+    </div>
+</div>
 <div id="loader">Loading ...</div>
 <script type="text/javascript">
 
     var gameName = "parking-fury-1.min.f.js";
 
+    // Function to check screen orientation and show/hide orientation message
+    function checkOrientation() {
+        const orientationDiv = document.getElementById('orientation');
+        const isPortrait = window.innerHeight > window.innerWidth;
+
+        if (isPortrait) {
+            orientationDiv.style.display = 'flex';
+        } else {
+            orientationDiv.style.display = 'none';
+        }
+    }
+
+    // Listen for orientation changes and resize events
+    window.addEventListener('resize', checkOrientation);
+    window.addEventListener('orientationchange', function() {
+        // Small delay to ensure orientation change is processed
+        setTimeout(checkOrientation, 100);
+    });
+
+    // Check orientation on initial load
+    window.addEventListener('load', checkOrientation);
 
     //This all here is for cache busting;
     function addScript(src, buster, callback) {
