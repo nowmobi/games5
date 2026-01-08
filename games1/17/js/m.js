@@ -1081,6 +1081,7 @@ class Boot extends Phaser.Scene {
     scaleForMobile() {
         this.wasIncorrectOrientation = true;
         window.addEventListener("resize", this.onWindowResize.bind(this));
+        window.addEventListener("orientationchange", this.onWindowResize.bind(this));
         this.onWindowResize()
     }
     onWindowResize() {
