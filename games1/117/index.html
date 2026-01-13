@@ -1,0 +1,90 @@
+<html manifest="offline.appcache"><head>
+    <meta charset="UTF-8">
+	
+	<!-- This ensures the canvas works on IE9+.  Don't remove it! -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<!-- Standardised web app manifest -->
+	<link rel="manifest" href="app.manifest">
+	
+	<title>超彩色线</title>
+	<!-- Note: running this exported project from disk may not work exactly like preview, since browsers block some features on the file:// protocol.  Once you've uploaded it to a server, it should work OK. -->
+	
+    <!-- This outlines the canvas with a black border and makes the page background black. -->
+	<style type="text/css">
+		body { background-color: black; color: white; }
+		canvas { -ms-touch-action: none; }
+	</style>
+
+
+</head> 
+ 
+<body style=""> 
+	<div id="fb-root"></div>
+	<div style="text-align: center;">
+
+	<script>
+	// Issue a warning if trying to preview an exported project on disk.
+	(function(){
+		// Check for running exported on file protocol
+		if (window.location.protocol.substr(0, 4) === "file")
+		{
+			alert("Exported games won't work until you upload them. (When running on the file:/// protocol, browsers block many features from working for security reasons.)");
+		}
+	})();
+	</script>
+
+		<!-- The canvas must be inside a div called c2canvasdiv -->
+		<div id="c2canvasdiv" style="margin: 0 auto; width: 1280px; height: 720px;">
+		
+			<!-- The canvas the project will render to.  If you change its ID, don't forget to change the
+			ID the runtime looks for in the jQuery ready event (above). -->
+			<canvas id="c2canvas" width="1280" height="720" style="cursor: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAoCAYAAADt5povAAAAAXNSR0IArs4c6QAABHZJREFUWEdjZMAPWNhYWNpdzXVTQcp2n7w869efP1UMDAx/COjDKc1IQGPlht6yNn97E7CyjQdPMwQUd4MsbKeJhYbqCmfPLe0yQjbcILLs7MXbDyAuIAPg9aGNvtb1w3MbNJDNtU2pv37kwnUtMuwCaxm1cFAFKTcDAwMTAwPDZ1Lik+Q4tEmuuXPx5sP9AU5miazMTEzrD5xe9+Hzt0QGBoYvDAwMfAwMDGwMDAxvcDmCZAtNYisYWrMiGNwtDcBmnrtxn8EquWYGMyPT/1AX81QeTk7mdQdO7nn++kMUNotJtjC4rJdhbVcxigeskmoYSmP9GAIdzcDidx6/YDCJrVz+8ctXkKUogGQLY2snMyxuzkUxJLS8j2FVRxEDI5Jp/kXd7zcdOl1gpKlYIcjDw3/owo21v3//LqeKhdgcEVza819DUZqhJSsS7I6jF28yuGW3zKSZhWEV/QwLG7IZODlAaQgCAkp6viBbKAoslNkZGBieMTAw/AMpwFa0YfMNKWIgCyVkRAWXBziZO3CyszFcvPXg7b5TV2b9+fevxUZf6yx6WUqK4ehxDdLLKCLIt+HMog5/eUkRuNdB4R1ZO+mEnIig5JF5LfLIKYRiC0OdLX6s6iwCBSUKOHXlDkNu9zyGkwvbUMQpttDGUP3R4dnNsthKhpjayQxL0LJAcvN0hrm1mSjKiRUDBykDA0NKTUrw7MqEAAYuDlSPYvPN37//GJiZQUUoAhArBrMQpNNNVly4cUlznoWdkSbcJGwWYgsJYsWQLQTpYZUWE9p/fXW/NS83J9gMbEFKrOHY1KFbCFITvr6ndEWAgynDn79/GZIapzMsasqhxA6MBIde0jjPr8/ak+DrwHDg7FWGK3ceM+SEe9DUQoc5tRn7k/2dGHI65zLUpYYwiAnx09RCvc7c6Itl8f4MUTWTGJa15FHNMpBB2OKQO97X8cOC+kyWE5dvMVjoqlHVwojqib8xagtNOcmTV9dONEOu26hlq0tW00Ns1VPZ0XktnVZ61PXdz1+/GaTcU9dhs1AkxNnywerOQlCrjGoA2i9JxFoBMzEw1O+cWlvtbK77F6uN//8T6gTBtMHVuWQ1f9h3+ooiLo3sCtJiR4/ObZWWFOHDtPQ/MTGMcNSiLYe4EhqnVjIwMEzH51J5A3WFvTsmV/0UExTA0R8k4FNGRsYPn74waQUXvXrx/oMzqCVBKGhUVGQl16ztKvyhq6LwDWeEMuLuFNVMWSbXtmADqKF8CKSfkIUgNULykqI7Ly7rfMzHy409TsEmYQ9mvdBixSv3HoP6k/+JtRCkzr0kxq+msyD2CgMjgVD5hwjmT1+/s4g4JzP+/fsvCSMVEUj/LGa6qqeOL2jeBlb3jxl/yEAddfT8dUG71IYXQP83kmohg5ai7JGrq3rWojgMRzDC1Gw6cEbCv6TrPfKYADFxCNavKiux/9a6yfMxQgJPEC/bdUw6umoiKO7ggxBEWyguxL/sxZ65fQx//hCtp2f5NpnS/kWKwG5cH8yhAEvH5c5tYggaAAAAAElFTkSuQmCC&quot;) 9 1, auto;">
+				
+			</canvas>
+			
+		</div>
+
+        <br>
+		
+
+	</div>
+	
+	<!-- Pages load faster with scripts at the bottom -->
+	
+	<!-- Construct 2 exported games require jQuery. -->
+	<script src="jquery-2.0.0.min.js"></script>
+
+
+	
+    <!-- The runtime script.  You can rename it, but don't forget to rename the reference here as well.
+    This file will have been minified and obfuscated if you enabled "Minify script" during export. -->
+	<script src="c2runtime.js"></script>
+
+    <script>
+		// Size the canvas to fill the browser viewport.
+		jQuery(window).resize(function() {
+			cr_sizeCanvas(jQuery(window).width(), jQuery(window).height());
+		});
+		
+		// Start the Construct 2 project running on window load.
+		jQuery(document).ready(function ()
+		{
+			// Create new runtime using the c2canvas
+			cr_createRuntime("c2canvas");
+		});
+		
+		// Pause and resume on page becoming visible/invisible
+		function onVisibilityChanged() {
+			if (document.hidden || document.mozHidden || document.webkitHidden || document.msHidden)
+				cr_setSuspended(true);
+			else
+				cr_setSuspended(false);
+		};
+		
+		document.addEventListener("visibilitychange", onVisibilityChanged, false);
+		document.addEventListener("mozvisibilitychange", onVisibilityChanged, false);
+		document.addEventListener("webkitvisibilitychange", onVisibilityChanged, false);
+		document.addEventListener("msvisibilitychange", onVisibilityChanged, false);
+    </script>
+</body></html>

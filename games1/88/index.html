@@ -1,0 +1,115 @@
+<html manifest="offline.appcache">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- This ensures the canvas works on IE9+.  Don't remove it! -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <!-- Standardised web app manifest -->
+    <link rel="manifest" href="app.manifest" />
+
+    <title>圣诞气球</title>
+    <!-- Note: running this exported project from disk may not work exactly like preview, since browsers block some features on the file:// protocol.  Once you've uploaded it to a server, it should work OK. -->
+
+    <!-- This outlines the canvas with a black border and makes the page background black. -->
+    <style type="text/css">
+      body {
+        background-color: black;
+        color: white;
+      }
+      canvas {
+        -ms-touch-action: none;
+      }
+    </style>
+  </head>
+
+  <body style="">
+    <div id="fb-root"></div>
+    <div style="text-align: center">
+      <script>
+        // Issue a warning if trying to preview an exported project on disk.
+        (function () {
+          // Check for running exported on file protocol
+          if (window.location.protocol.substr(0, 4) === "file") {
+            alert(
+              "Exported games won't work until you upload them. (When running on the file:/// protocol, browsers block many features from working for security reasons.)"
+            );
+          }
+        })();
+      </script>
+
+      <!-- The canvas must be inside a div called c2canvasdiv -->
+      <div
+        id="c2canvasdiv"
+        style="margin: 0 auto; width: 1280px; height: 720px"
+      >
+        <!-- The canvas the project will render to.  If you change its ID, don't forget to change the
+			ID the runtime looks for in the jQuery ready event (above). -->
+        <canvas
+          id="c2canvas"
+          width="1280"
+          height="720"
+          style="
+            cursor: url('data:image/png;base64,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')
+                8 4,
+              auto;
+          "
+        >
+        </canvas>
+      </div>
+
+      <br />
+    </div>
+
+    <!-- Pages load faster with scripts at the bottom -->
+
+    <!-- Construct 2 exported games require jQuery. -->
+    <script src="jquery-2.0.0.min.js"></script>
+
+    <!-- The runtime script.  You can rename it, but don't forget to rename the reference here as well.
+    This file will have been minified and obfuscated if you enabled "Minify script" during export. -->
+    <script src="c2runtime.js"></script>
+
+    <script>
+      // Size the canvas to fill the browser viewport.
+      jQuery(window).resize(function () {
+        cr_sizeCanvas(jQuery(window).width(), jQuery(window).height());
+      });
+
+      // Start the Construct 2 project running on window load.
+      jQuery(document).ready(function () {
+        // Create new runtime using the c2canvas
+        cr_createRuntime("c2canvas");
+      });
+
+      // Pause and resume on page becoming visible/invisible
+      function onVisibilityChanged() {
+        if (
+          document.hidden ||
+          document.mozHidden ||
+          document.webkitHidden ||
+          document.msHidden
+        )
+          cr_setSuspended(true);
+        else cr_setSuspended(false);
+      }
+
+      document.addEventListener("visibilitychange", onVisibilityChanged, false);
+      document.addEventListener(
+        "mozvisibilitychange",
+        onVisibilityChanged,
+        false
+      );
+      document.addEventListener(
+        "webkitvisibilitychange",
+        onVisibilityChanged,
+        false
+      );
+      document.addEventListener(
+        "msvisibilitychange",
+        onVisibilityChanged,
+        false
+      );
+    </script>
+    </body>
+</html>

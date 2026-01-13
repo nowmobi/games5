@@ -1,0 +1,106 @@
+<html manifest="offline.appcache"><head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>触球</title>
+	
+	<!-- Standardised web app manifest -->
+	<link rel="manifest" href="app.manifest">
+	
+	<!-- Allow fullscreen mode on iOS devices. (These are Apple specific meta tags.) -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="apple-touch-icon" sizes="256x256" href="icon-256.png">
+	<meta name="HandheldFriendly" content="true">
+	
+	<!-- Chrome for Android web app tags -->
+	<meta name="mobile-web-app-capable" content="yes">
+	<link rel="shortcut icon" sizes="256x256" href="icon-256.png">
+
+    <!-- All margins and padding must be zero for the canvas to fill the screen. -->
+	<style type="text/css">
+		* {
+			padding: 0;
+			margin: 0;
+		}
+		html, body {
+			background: #000;
+			color: #fff;
+			overflow: hidden;
+			touch-action: none;
+			-ms-touch-action: none;
+		}
+		canvas {
+			touch-action-delay: none;
+			touch-action: none;
+			-ms-touch-action: none;
+		}
+    </style>
+	
+
+</head> 
+ 
+<body style=""> 
+	<div id="fb-root"></div>
+	
+	<script>
+	// Issue a warning if trying to preview an exported project on disk.
+	(function(){
+		// Check for running exported on file protocol
+		if (window.location.protocol.substr(0, 4) === "file")
+		{
+			alert("Exported games won't work until you upload them. (When running on the file:/// protocol, browsers block many features from working for security reasons.)");
+		}
+	})();
+	</script>
+	
+	<!-- The canvas must be inside a div called c2canvasdiv -->
+	<div id="c2canvasdiv" style="width: 338px; height: 600px; margin-left: 231px; margin-top: 0px;">
+	
+		<!-- The canvas the project will render to.  If you change its ID, don't forget to change the
+		ID the runtime looks for in the jQuery events above (ready() and cr_sizeCanvas()). -->
+		<canvas id="c2canvas" width="338" height="600" style="width: 338px; height: 600px; cursor: url(&quot;data:image/png;base64,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&quot;) 20 4, auto;">
+			
+		</canvas>
+		
+	</div>
+	
+	<!-- Pages load faster with scripts at the bottom -->
+	
+	<!-- Construct 2 exported games require jQuery. -->
+	<script src="jquery-2.0.0.min.js"></script>
+
+
+	
+    <!-- The runtime script.  You can rename it, but don't forget to rename the reference here as well.
+    This file will have been minified and obfuscated if you enabled "Minify script" during export. -->
+	<script src="c2runtime.js"></script>
+
+    <script>
+		// Size the canvas to fill the browser viewport.
+		jQuery(window).resize(function() {
+			cr_sizeCanvas(jQuery(window).width(), jQuery(window).height());
+		});
+		
+		// Start the Construct 2 project running on window load.
+		jQuery(document).ready(function ()
+		{			
+			// Create new runtime using the c2canvas
+			cr_createRuntime("c2canvas");
+		});
+		
+		// Pause and resume on page becoming visible/invisible
+		function onVisibilityChanged() {
+			if (document.hidden || document.mozHidden || document.webkitHidden || document.msHidden)
+				cr_setSuspended(true);
+			else
+				cr_setSuspended(false);
+		};
+		
+		document.addEventListener("visibilitychange", onVisibilityChanged, false);
+		document.addEventListener("mozvisibilitychange", onVisibilityChanged, false);
+		document.addEventListener("webkitvisibilitychange", onVisibilityChanged, false);
+		document.addEventListener("msvisibilitychange", onVisibilityChanged, false);
+		
+    </script>
+</body></html>
