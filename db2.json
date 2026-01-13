@@ -749,24 +749,6 @@
         "category": "girl"
     },
     {
-        "id": 13,
-        "name": "Papa Cherry Saga",
-        "image": "./icons/13.jpg",
-        "description": "Match colorful candies and complete sweet challenges in this fun, match-3 puzzle game.",
-        "rating": 4.2,
-        "downloads": "12.2K",
-        "category": "girl"
-    },
-    {
-        "id": 58,
-        "name": "Basket Champs",
-        "image": "./icons/58.jpg",
-        "description": "Compete in international basketball tournaments and score points to win the championship.",
-        "rating": 5.0,
-        "downloads": "15.2K",
-        "category": "sports"
-    },
-    {
         "id": 59,
         "name": "Basket Random",
         "image": "./icons/59.jpg",
@@ -792,5 +774,122 @@
         "rating": 4.8,
         "downloads": "5.3K",
         "category": "sports"
+    },
+      {
+        "id": 2,
+        "name": "Mummy Candy",
+        "image": "./icons/2.png",
+        "description": "The mysterious mummy meets delicious candies, starting a wonderful adventure. Explore the unknown, collect candies and uncover the mysterious veil.",
+        "rating": 4.2,
+        "downloads": "12.5K",
+        "category": "girl"
+    },
+    {
+        "id": 27,
+        "name": "Gold Miner",
+        "image": "./icons/27.png",
+        "description": "Play as a gold miner and dig for gold and gems underground. Use hook skills to avoid traps and gain wealth.",
+        "rating": 4.7,
+        "downloads": "21.7K",
+        "category": "action"
+    },
+    {
+        "id": 29,
+        "name": "Escape",
+        "image": "./icons/29.png",
+        "description": "In a tense and exciting escape journey, avoid being chased by enemies. Use agile skills and wisdom to find hope for survival.",
+        "rating": 4.3,
+        "downloads": "15.3K",
+        "category": "adventure"
+    },
+    {
+        "id": 36,
+        "name": "Fruit Pie",
+        "image": "./icons/36.png",
+        "description": "Make delicious fruit pies and experience the fun of cooking. Choose fresh fruits, make them carefully and satisfy your taste buds.",
+        "rating": 4.1,
+        "downloads": "14.8K",
+        "category": "girl"
+    },
+    {
+        "id": 50,
+        "name": "Casino Card Memory",
+        "image": "./icons/50.png",
+        "description": "Test your memory and observation skills. Find the same cards in casino cards. Challenge yourself and win.",
+        "rating": 4.4,
+        "downloads": "13.6K",
+        "category": "puzzle"
+    },
+    {
+        "id": 53,
+        "name": "Candlelight Ultra Line",
+        "image": "./icons/53.png",
+        "description": "In the mysterious candlelight world, challenge the super line task. Use wisdom and skills to solve puzzles and complete the challenge.",
+        "rating": 4.0,
+        "downloads": "11.4K",
+        "category": "girl"
+    },
+    {
+        "id": 54,
+        "name": "Christmas Panda Run",
+        "image": "./icons/54.png",
+        "description": "The lovely Christmas panda starts a running adventure. In the Christmas atmosphere, avoid obstacles and collect gifts.",
+        "rating": 4.8,
+        "downloads": "22.1K",
+        "category": "sports"
+    },
+    {
+        "id": 65,
+        "name": "Christmas Balloon",
+        "image": "./icons/65.png",
+        "description": "Let go of Christmas balloons and enjoy the festive atmosphere. Control the balloons, avoid obstacles and fly higher and farther.",
+        "rating": 4.3,
+        "downloads": "17.5K",
+        "category": "racing"
+    },
+    {
+        "id": 68,
+        "name": "Ninja Game",
+        "image": "./icons/68.png",
+        "description": "Be immersed in the ninja world. Experience exciting battles and adventures. Use ninjuts to complete tasks and become a top ninja.",
+        "rating": 4.6,
+        "downloads": "19.3K",
+        "category": "action"
+    },
+    {
+        "id": 79,
+        "name": "Ultra Color Line",
+        "image": "./icons/79.png",
+        "description": "Challenge the super color line task. Use color power to solve puzzles and create beautiful patterns.",
+        "rating": 4.2,
+        "downloads": "12.9K",
+        "category": "puzzle"
+    },
+    {
+        "id": 88,
+        "name": "Touch Ball",
+        "image": "./icons/88.png",
+        "description": "Control the ball and touch the target. In a challenging level, show your operation skills.",
+        "rating": 4.4,
+        "downloads": "16.7K",
+        "category": "action"
+    },
+    {
+        "id": 94,
+        "name": "Fast Dice",
+        "image": "./icons/94.png",
+        "description": "Roll the fast dice and experience an exciting game. Win with luck and strategy.",
+        "rating": 4.1,
+        "downloads": "14.2K",
+        "category": "action"
+    },
+    {
+        "id": 117,
+        "name": "Balloon Paradise",
+        "image": "./icons/117.png",
+        "description": "Enter the balloon paradise. Enjoy a relaxed and pleasant game atmosphere. Control balloons, collect stars and explore the beautiful world.",
+        "rating": 4.7,
+        "downloads": "20.8K",
+        "category": "action"
     }
 ]
