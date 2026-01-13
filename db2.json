@@ -218,15 +218,6 @@
         "category": "action"
     },
     {
-        "id": 90,
-        "name": "Toy Defense",
-        "image": "./icons/90.jpg",
-        "description": "Defend your toys from invading enemies in this fun tower defense game.",
-        "rating": 4.3,
-        "downloads": "13.3K",
-        "category": "action"
-    },
-    {
         "id": 92,
         "name": "Crossy Road",
         "image": "./icons/92.jpg",
@@ -251,24 +242,6 @@
         "description": "Jump from platform to platform in this classic and addictive jumping game.",
         "rating": 4.4,
         "downloads": "12.6K",
-        "category": "action"
-    },
-    {
-        "id": 165,
-        "name": "G Switch 2",
-        "image": "./icons/165.jpg",
-        "description": "Flip gravity and run through levels filled with obstacles in this fast-paced game.",
-        "rating": 4.8,
-        "downloads": "12.4K",
-        "category": "action"
-    },
-    {
-        "id": 166,
-        "name": "G Switch 3",
-        "image": "./icons/166.jpg",
-        "description": "Experience new challenges and mechanics in this exciting gravity-flipping game.",
-        "rating": 4.9,
-        "downloads": "10.0K",
         "category": "action"
     },
     {
@@ -351,33 +324,6 @@
         "rating": 4.3,
         "downloads": "9.9K",
         "category": "action"
-    },
-    {
-        "id": 110,
-        "name": "Vex 5",
-        "image": "./icons/110.jpg",
-        "description": "Experience new gameplay mechanics and challenges in this exciting platformer.",
-        "rating": 4.2,
-        "downloads": "10.2K",
-        "category": "adventure"
-    },
-    {
-        "id": 111,
-        "name": "Vex 6",
-        "image": "./icons/111.jpg",
-        "description": "Master new skills and navigate through complex levels in this action-packed game.",
-        "rating": 4.8,
-        "downloads": "14.5K",
-        "category": "adventure"
-    },
-    {
-        "id": 112,
-        "name": "Vex 7",
-        "image": "./icons/112.jpg",
-        "description": "Face new challenges and obstacles in this latest installment of the Vex series.",
-        "rating": 4.6,
-        "downloads": "5.1K",
-        "category": "adventure"
     },
     {
         "id": 156,
@@ -632,15 +578,6 @@
         "category": "puzzle"
     },
     {
-        "id": 114,
-        "name": "Klondike Solitaire",
-        "image": "./icons/114.jpg",
-        "description": "Enjoy the timeless solitaire experience with classic gameplay and beautiful graphics.",
-        "rating": 4.7,
-        "downloads": "8.7K",
-        "category": "puzzle"
-    },
-    {
         "id": 115,
         "name": "Spider Solitaire",
         "image": "./icons/115.jpg",
@@ -819,15 +756,6 @@
         "rating": 4.2,
         "downloads": "12.2K",
         "category": "girl"
-    },
-    {
-        "id": 57,
-        "name": "Basket And Ball",
-        "image": "./icons/57.jpg",
-        "description": "Control a bouncy ball, complete puzzles, and score baskets in this physics-based basketball game.",
-        "rating": 4.9,
-        "downloads": "12.9K",
-        "category": "sports"
     },
     {
         "id": 58,

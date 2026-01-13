@@ -83,15 +83,6 @@
         "category": "action"
     },
     {
-        "id": 7,
-        "name": "G Switch 4",
-        "image": "./icons/7.jpg",
-        "description": "Run, switch gravity, and avoid obstacles in this fast-paced platform game. Perfect your timing!",
-        "rating": 4.7,
-        "downloads": "15.7K",
-        "category": "action"
-    },
-    {
         "id": 8,
         "name": "Geometry Jump",
         "image": "./icons/8.jpg",
@@ -207,15 +198,6 @@
         "description": "Navigate through challenging levels to reach the top of the tower.",
         "rating": 4.9,
         "downloads": "15.9K",
-        "category": "adventure"
-    },
-    {
-        "id": 108,
-        "name": "Vex 3",
-        "image": "./icons/108.jpg",
-        "description": "Navigate through challenging levels filled with traps and obstacles in this platformer.",
-        "rating": 4.6,
-        "downloads": "4.2K",
         "category": "adventure"
     },
     {
@@ -405,15 +387,6 @@
         "description": "Play the classic card game and strategize to win in this relaxing version.",
         "rating": 4.8,
         "downloads": "2.6K",
-        "category": "puzzle"
-    },
-    {
-        "id": 114,
-        "name": "Klondike Solitaire",
-        "image": "./icons/114.jpg",
-        "description": "Enjoy the timeless solitaire experience with classic gameplay and beautiful graphics.",
-        "rating": 4.7,
-        "downloads": "8.7K",
         "category": "puzzle"
     },
     {
@@ -633,15 +606,6 @@
         "category": "racing"
     },
     {
-        "id": 9,
-        "name": "Heads Arena Soccer All Stars",
-        "image": "./icons/9.jpg",
-        "description": "Play soccer with big-headed stars in this fun, arcade-style soccer game. Score goals and win!",
-        "rating": 5.0,
-        "downloads": "12.4K",
-        "category": "sports"
-    },
-    {
         "id": 31,
         "name": "Head Soccer 2023",
         "image": "./icons/31.jpg",
@@ -666,15 +630,6 @@
         "description": "Play a fast-paced soccer game with smooth controls. Score goals and defeat your opponents to win.",
         "rating": 4.8,
         "downloads": "12.3K",
-        "category": "sports"
-    },
-    {
-        "id": 57,
-        "name": "Basket And Ball",
-        "image": "./icons/57.jpg",
-        "description": "Control a bouncy ball, complete puzzles, and score baskets in this physics-based basketball game.",
-        "rating": 4.9,
-        "downloads": "12.9K",
         "category": "sports"
     },
     {

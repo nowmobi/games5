@@ -83,15 +83,6 @@
         "category": "action"
     },
     {
-        "id": 7,
-        "name": "G Switch 4",
-        "image": "./icons/7.jpg",
-        "description": "Run, switch gravity, and avoid obstacles in this fast-paced platform game. Perfect your timing!",
-        "rating": 4.7,
-        "downloads": "15.7K",
-        "category": "action"
-    },
-    {
         "id": 8,
         "name": "Geometry Jump",
         "image": "./icons/8.jpg",
@@ -99,15 +90,6 @@
         "rating": 4.4,
         "downloads": "14.0K",
         "category": "action"
-    },
-    {
-        "id": 9,
-        "name": "Heads Arena Soccer All Stars",
-        "image": "./icons/9.jpg",
-        "description": "Play soccer with big-headed stars in this fun, arcade-style soccer game. Score goals and win!",
-        "rating": 5.0,
-        "downloads": "12.4K",
-        "category": "sports"
     },
     {
         "id": 10,
@@ -207,15 +189,6 @@
         "rating": 4.1,
         "downloads": "2.3K",
         "category": "kids"
-    },
-    {
-        "id": 21,
-        "name": "Vex 8",
-        "image": "./icons/21.jpg",
-        "description": "Navigate through dangerous obstacles and traps in this challenging platformer. Master precise timing to survive.",
-        "rating": 4.9,
-        "downloads": "4.2K",
-        "category": "action"
     },
     {
         "id": 22,
@@ -461,15 +434,6 @@
         "category": "action"
     },
     {
-        "id": 57,
-        "name": "Basket And Ball",
-        "image": "./icons/57.jpg",
-        "description": "Control a bouncy ball, complete puzzles, and score baskets in this physics-based basketball game.",
-        "rating": 4.9,
-        "downloads": "12.9K",
-        "category": "sports"
-    },
-    {
         "id": 58,
         "name": "Basket Champs",
         "image": "./icons/58.jpg",
@@ -566,15 +530,6 @@
         "description": "Compete in penalty shootouts against players worldwide in this soccer game.",
         "rating": 4.8,
         "downloads": "4.9K",
-        "category": "sports"
-    },
-    {
-        "id": 71,
-        "name": "Retro Bowl",
-        "image": "./icons/71.jpg",
-        "description": "Lead your team to victory in this nostalgic American football game.",
-        "rating": 4.6,
-        "downloads": "11.6K",
         "category": "sports"
     },
     {
@@ -687,15 +642,6 @@
         "category": "action"
     },
     {
-        "id": 90,
-        "name": "Toy Defense",
-        "image": "./icons/90.jpg",
-        "description": "Defend your toys from invading enemies in this fun tower defense game.",
-        "rating": 4.3,
-        "downloads": "13.3K",
-        "category": "action"
-    },
-    {
         "id": 91,
         "name": "Big Tower Tiny Square",
         "image": "./icons/91.jpg",
@@ -723,66 +669,12 @@
         "category": "racing"
     },
     {
-        "id": 108,
-        "name": "Vex 3",
-        "image": "./icons/108.jpg",
-        "description": "Navigate through challenging levels filled with traps and obstacles in this platformer.",
-        "rating": 4.6,
-        "downloads": "4.2K",
-        "category": "adventure"
-    },
-    {
-        "id": 109,
-        "name": "Vex 4",
-        "image": "./icons/109.jpg",
-        "description": "Continue the adventure with new levels and challenges in this popular series.",
-        "rating": 4.8,
-        "downloads": "11.5K",
-        "category": "adventure"
-    },
-    {
-        "id": 110,
-        "name": "Vex 5",
-        "image": "./icons/110.jpg",
-        "description": "Experience new gameplay mechanics and challenges in this exciting platformer.",
-        "rating": 4.2,
-        "downloads": "10.2K",
-        "category": "adventure"
-    },
-    {
-        "id": 111,
-        "name": "Vex 6",
-        "image": "./icons/111.jpg",
-        "description": "Master new skills and navigate through complex levels in this action-packed game.",
-        "rating": 4.8,
-        "downloads": "14.5K",
-        "category": "adventure"
-    },
-    {
-        "id": 112,
-        "name": "Vex 7",
-        "image": "./icons/112.jpg",
-        "description": "Face new challenges and obstacles in this latest installment of the Vex series.",
-        "rating": 4.6,
-        "downloads": "5.1K",
-        "category": "adventure"
-    },
-    {
         "id": 113,
         "name": "FreeCell Solitaire",
         "image": "./icons/113.jpg",
         "description": "Play the classic card game and strategize to win in this relaxing version.",
         "rating": 4.8,
         "downloads": "2.6K",
-        "category": "puzzle"
-    },
-    {
-        "id": 114,
-        "name": "Klondike Solitaire",
-        "image": "./icons/114.jpg",
-        "description": "Enjoy the timeless solitaire experience with classic gameplay and beautiful graphics.",
-        "rating": 4.7,
-        "downloads": "8.7K",
         "category": "puzzle"
     },
     {
@@ -1089,24 +981,6 @@
         "description": "Jump from platform to platform in this classic and addictive jumping game.",
         "rating": 4.4,
         "downloads": "12.6K",
-        "category": "action"
-    },
-    {
-        "id": 165,
-        "name": "G Switch 2",
-        "image": "./icons/165.jpg",
-        "description": "Flip gravity and run through levels filled with obstacles in this fast-paced game.",
-        "rating": 4.8,
-        "downloads": "12.4K",
-        "category": "action"
-    },
-    {
-        "id": 166,
-        "name": "G Switch 3",
-        "image": "./icons/166.jpg",
-        "description": "Experience new challenges and mechanics in this exciting gravity-flipping game.",
-        "rating": 4.9,
-        "downloads": "10.0K",
         "category": "action"
     },
     {

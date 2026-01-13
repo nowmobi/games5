@@ -65,24 +65,6 @@
         "category": "action"
     },
     {
-        "id": 165,
-        "name": "G Switch 2",
-        "image": "./icons/165.jpg",
-        "description": "Flip gravity and run through levels filled with obstacles in this fast-paced game.",
-        "rating": 4.8,
-        "downloads": "12.4K",
-        "category": "action"
-    },
-    {
-        "id": 166,
-        "name": "G Switch 3",
-        "image": "./icons/166.jpg",
-        "description": "Experience new challenges and mechanics in this exciting gravity-flipping game.",
-        "rating": 4.9,
-        "downloads": "10.0K",
-        "category": "action"
-    },
-    {
         "id": 167,
         "name": "G Switch",
         "image": "./icons/167.jpg",
@@ -245,15 +227,6 @@
         "category": "action"
     },
     {
-        "id": 90,
-        "name": "Toy Defense",
-        "image": "./icons/90.jpg",
-        "description": "Defend your toys from invading enemies in this fun tower defense game.",
-        "rating": 4.3,
-        "downloads": "13.3K",
-        "category": "action"
-    },
-    {
         "id": 39,
         "name": "E-Scooter",
         "image": "./icons/39.jpg",
@@ -287,15 +260,6 @@
         "description": "Navigate through challenging levels to reach the top of the tower.",
         "rating": 4.9,
         "downloads": "15.9K",
-        "category": "adventure"
-    },
-    {
-        "id": 108,
-        "name": "Vex 3",
-        "image": "./icons/108.jpg",
-        "description": "Navigate through challenging levels filled with traps and obstacles in this platformer.",
-        "rating": 4.6,
-        "downloads": "4.2K",
         "category": "adventure"
     },
     {
@@ -440,15 +404,6 @@
         "description": "Play the classic card game and strategize to win in this relaxing version.",
         "rating": 4.8,
         "downloads": "2.6K",
-        "category": "puzzle"
-    },
-    {
-        "id": 114,
-        "name": "Klondike Solitaire",
-        "image": "./icons/114.jpg",
-        "description": "Enjoy the timeless solitaire experience with classic gameplay and beautiful graphics.",
-        "rating": 4.7,
-        "downloads": "8.7K",
         "category": "puzzle"
     },
     {
@@ -623,15 +578,6 @@
         "category": "racing"
     },
     {
-        "id": 9,
-        "name": "Heads Arena Soccer All Stars",
-        "image": "./icons/9.jpg",
-        "description": "Play soccer with big-headed stars in this fun, arcade-style soccer game. Score goals and win!",
-        "rating": 5.0,
-        "downloads": "12.4K",
-        "category": "sports"
-    },
-    {
         "id": 31,
         "name": "Head Soccer 2023",
         "image": "./icons/31.jpg",
@@ -656,15 +602,6 @@
         "description": "Play a fast-paced soccer game with smooth controls. Score goals and defeat your opponents to win.",
         "rating": 4.8,
         "downloads": "12.3K",
-        "category": "sports"
-    },
-    {
-        "id": 57,
-        "name": "Basket And Ball",
-        "image": "./icons/57.jpg",
-        "description": "Control a bouncy ball, complete puzzles, and score baskets in this physics-based basketball game.",
-        "rating": 4.9,
-        "downloads": "12.9K",
         "category": "sports"
     },
     {
